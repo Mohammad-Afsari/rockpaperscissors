@@ -10,20 +10,60 @@
 </head>
 
 <body>
-    <div style="margin-bottom: 20px">
-        <input type="Button" value = "Rock" id = "Rock">
-        <input type="Button" value = "Paper" id = "Paper">
-        <input type="Button" value = "Scissors" id = "Scissors">
-    </div>
-    
-    <div style="margin-bottom: 20px;">
-        <div id = "player">0</div>
-        <div id = "computer">0</div>
+    <div class="container">
+        
+        <!-- Intro -->
+        <div class="intro">
+            <h1>Welcome to Rock, Paper Scissors</h1>
+            <h3>Choose your weapon!</h3>
+        </div>
+        
+        <!-- Result -->
+        <div class="flex-container result">
+            <div id="result"></div>
+        </div>
+        
+        <!-- Initial Score -->
+        <div class="flex-container score">
+            <div class="flex-container playerscore">
+                <p>Player Score:</p>
+                <div id = "player">0</div>
+            </div>
+            <div class="flex-container computerscore">
+                <p>Computer Score:</p>
+                <div id = "computer">0</div>
+            </div>
+            <!-- <div id = "player">0</div>
+            <div> - </div>
+            <div id = "computer">0</div> -->
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex-container">
+            <div class="buttons">
+                <input type="Button" value = "Rock" id = "Rock">
+                <input type="Button" value = "Paper" id = "Paper">
+                <input type="Button" value = "Scissors" id = "Scissors">
+                
+            </div>
+        </div>
+
+        <!-- Restart Button -->
+        <div>
+            <input type="button" value="Restart Game">
+        </div>
+
+
+        <!-- Footer -->
+        <div>
+            Mohammad Afsari
+        </div>
     </div>
 
-    <div style="margin-bottom: 40px;">
-        <div id="result"></div>
-    </div>
+
+
+    
+
 
     <script src="app.js"></script>
 </body>
