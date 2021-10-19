@@ -1,6 +1,7 @@
 /* Intro */
 body {
-    background-color:gray
+    background-color:gray;
+    margin: 0px;
 }
 
 .intro {
@@ -8,7 +9,7 @@ body {
     margin: 50px 0 50px 0;
     font-size: 30px;
     min-width: 1000px;
-    
+    color: #00050d;
 }
 
 .result {
@@ -20,6 +21,9 @@ body {
     font-size: 20px;
     margin: 50px 300px 50px 300px;
     padding-top: 70px;
+    color: #00050d;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .score {
@@ -36,6 +40,7 @@ body {
     text-align: center;
     height: 150px;
     min-width: 150px;
+    font-weight: bold;
 }
 
 .computerscore {
@@ -44,6 +49,7 @@ body {
     text-align: center;
     min-width: 150px;
     height: 150px;
+    font-weight: bold;
 }
 
 #player, #computer {
@@ -56,7 +62,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0px 300px;
-    border: 1px solid black;
     min-width: 420px;
     
 }
@@ -67,15 +72,55 @@ body {
     margin: 10px auto;
     box-sizing: border-box;
     border-radius: 15px;
-    
+    font-weight: bold;
+    font-size: 18px;
+    color: #00050d;
 }
 
 .rock {
     height: 20px;
     width: 20px;
-    background-image: url("img/rock.png");
-    display: none;
 }
 
+#Rock:hover, #Paper:hover, #Scissors:hover {
+    background-color: lightyellow;
+    font-size: 22px;
+    text-decoration: underline;
+}
 
+.restart {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    padding: 0px 500px 0px 510px;
+}
 
+.restartbtn {
+    height: 50px;
+    min-width: 400px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #00050d;
+}
+
+.restartbtn:hover {
+    background-color: lightgreen;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.footer {
+    padding: 0px 300px 0px 300px;
+    min-width: 400px;
+    text-align: center;
+    background-color:#00050d;
+    color:white;
+    height: 40px;
+}
+
+.footer p {
+    padding-top: 12px;
+    font-size: 16px;
+}
