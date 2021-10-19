@@ -4,6 +4,7 @@
 
 // Get buttons
 const buttons = document.querySelectorAll("input")
+const 
 const player = document.getElementById("player")
 const computer = document.getElementById("computer")
 const res = document.getElementById("result")
